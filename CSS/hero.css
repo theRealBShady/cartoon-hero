@@ -1,6 +1,10 @@
 body{
 	margin: 0;
 	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	background-color: black;
+	color: white;
 }
 
 h1, h2{
@@ -26,4 +30,36 @@ header img{
 
 main{
 	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+p.caption{
+	color: lightslategray;
+	font-style: italic;
+	margin-top: 0;
+}
+h2{
+	font-size: 40px;
+	color: ghostwhite;
+	margin: 40px 0 10px;
+}
+
+a{
+	color: mediumturquoise;
+}
+
+a:hover{
+	background-color: whitesmoke;
+	color: mediumpurple;
+}
+
+footer{
+	background-color: rebeccapurple;
+	text-align: center;
+	color: whitesmoke;
 }
